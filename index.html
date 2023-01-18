@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Prakiraan Cuaca</title>
+    <!-- Css boostrap -->
+    <link
+      rel="stylesheet"
+      href="css/bootstrap-5.2.0-dist/css/bootstrap.min.css"
+    />
+    <!-- Css font awesome -->
+    <link
+      rel="stylesheet"
+      href="css/fontawesome-free-6.1.1-web/css/all.min.css"
+    />
+    <!-- Css saya -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><i class="fa-solid fa-cloud-sun me-2"></i>Aplikasi Prakiraan Cuaca</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">
+              <i class="fa-solid fa-house me-2"></i>Home</a
+            >
+            <a class="nav-link" href="#"
+              ><i class="fa-solid fa-circle-exclamation me-2"></i>About</a
+            >
+            <a class="nav-link" href="#"
+              ><i class="fa-solid fa-truck-fast me-2"></i>Servcice</a
+            >
+            <a class="nav-link" href="#"
+              ><i class="fa-solid fa-building me-2"></i>Profile</a
+            >
+            <a class="nav-link" href="#"
+              ><i class="fa-solid fa-envelope me-2"></i>Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigasi End -->
+
+    <!-- form -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h3 class="judul">Cek Cuaca di daerah Anda!</h3>
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control panjang"
+                  id="inputKeyword"
+                  placeholder="Masukan nama Kota/Provinsi/Negara yang ingin di cari"
+                />
+                <button class="btn btn-primary" type="button" id="searchButton">
+                  <i class="fa-solid fa-cloud-sun-rain me-2"></i>Cek disini
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Form -->
+
+    <!-- Hasil -->
+
+    <div class="container result" id="result"></div>
+
+    <!-- Hasil ENd -->
+
+    <!-- Footer -->
+    <section>
+      <div class="footer">
+        <p class="kaki">
+          Made By Dennis Satriani Sp and Powered By openweathermap.com
+        </p>
+      </div>
+    </section>
+    <!-- Footer end -->
+    <!-- Kumpulan JS -->
+    <script src="css/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

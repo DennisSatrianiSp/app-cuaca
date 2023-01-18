@@ -1,0 +1,40 @@
+.kotak {
+    width: 160px;
+    height: 160px;
+    background-color: red;
+    border: 1px solid black
+}
+.lingkaran {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid black
+}
+.kotak1 {
+    width: 160px;
+    height: 160px;
+    background-color: red;
+    border: 1px solid black;
+    padding: 10px;
+}
+.kotak2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.card {
+    width: 500px;
+    border: 1px solid black;
+    font-size : 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.judul {
+    text-align: center;
+}

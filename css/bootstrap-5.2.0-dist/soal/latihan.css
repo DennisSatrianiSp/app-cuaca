@@ -1,0 +1,14 @@
+.kotak{
+    width: 160px;
+    height: 160px;
+    border:1px solid black;
+    background-color:red;
+   
+}
+.lingkaran{
+    width: 160px;
+    height: 160px;
+    border:1px solid black;
+    background-color:red;
+    border-radius: 50%;
+}
